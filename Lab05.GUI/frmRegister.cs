@@ -18,6 +18,7 @@ namespace Lab05.GUI
         private readonly StudentService studentService = new StudentService();
         private readonly FacultyService facultyService = new FacultyService();
         private readonly MajorService majorService = new MajorService();
+        //QuanLySinhVienDB context = new QuanLySinhVienDB();
         public frmRegister()
         {
             InitializeComponent();
@@ -30,7 +31,8 @@ namespace Lab05.GUI
             {
                 var listFacultys = facultyService.GetAll();
                 Student s = studentService.FindById(itemID);
-                FillFalcultyCombobox(listFacultys);  
+                FillFalcultyCombobox(listFacultys);
+                cmbFaculty.SelectedItem = null;
                 var listStudents = studentService.GetAllHasNoMajor();
                 BindGrid(listStudents);
                 
@@ -82,8 +84,8 @@ namespace Lab05.GUI
 
                 foreach( var row in dgvStudent.Rows)
                 {
-                    if (row.Equals(cmbFaculty.Equals(selectedFaculty)));
-                    Visible = true;
+                    if (row.Equals(cmbFaculty.Equals(selectedFaculty)))
+                         Visible = true;
                 }
                 
             }
@@ -122,7 +124,9 @@ namespace Lab05.GUI
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow selectedRow = dgvStudent.Rows[e.RowIndex];  
-                itemID = selectedRow.Cells[0].Value.ToString();  
+                itemID = selectedRow.Cells[0].Value.ToString();
+                //string nameFaculty = selectedRow.Cells[2].Value.ToString();
+                //cmbFaculty.SelectedIndex = context.Faculties.Where(f => f.FacultyName == nameFaculty).Select(f => f.FacultyID - 1).FirstOrDefault();
             }  
         }
 

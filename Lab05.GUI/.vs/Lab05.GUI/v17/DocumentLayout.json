@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|d:\\c#\\nguyenkimquang_2280602549_lab05\\lab05\\lab05.gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|d:\\c#\\nguyenkimquang_2280602549_lab05\\lab05\\lab05.gui\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B3D8AEF-BE4D-47E7-833A-91C4E7C30B03}|..\\Lab05.BUS\\Lab05.BUS.csproj|d:\\c#\\nguyenkimquang_2280602549_lab05\\lab05\\lab05.bus\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62FFD137-EBF6-4954-82AD-35B7862185D2}|Lab05.GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,11 +29,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 661,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -41,8 +41,21 @@
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T07:19:47.394Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmRegister.cs",
+              "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmRegister.cs",
+              "RelativeDocumentMoniker": "frmRegister.cs",
+              "ToolTip": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmRegister.cs",
+              "RelativeToolTip": "frmRegister.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T08:33:12.846Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -54,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "StudentService.cs",
               "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.BUS\\StudentService.cs",
               "RelativeDocumentMoniker": "..\\Lab05.BUS\\StudentService.cs",
@@ -62,11 +75,12 @@
               "RelativeToolTip": "..\\Lab05.BUS\\StudentService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAApwDgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:44:11.086Z"
+              "WhenOpened": "2024-10-20T09:44:11.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -74,25 +88,11 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAawCEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:13:33.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T08:13:33.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmRegister.cs",
-              "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmRegister.cs",
-              "RelativeDocumentMoniker": "frmRegister.cs",
-              "ToolTip": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmRegister.cs",
-              "RelativeToolTip": "frmRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T08:33:12.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "frmRegister.cs [Design]",
               "DocumentMoniker": "D:\\C#\\NguyenKimQuang_2280602549_Lab05\\Lab05\\Lab05.GUI\\frmRegister.cs",
               "RelativeDocumentMoniker": "frmRegister.cs",
