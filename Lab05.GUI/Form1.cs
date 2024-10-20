@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using System.Linq;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
 
 namespace Lab05.GUI
 {
@@ -30,6 +31,7 @@ namespace Lab05.GUI
                 FillFalcultyCombobox(listFacultys);
                 cmbFaculty.SelectedIndex = 0;
                 BindGrid(listStudents);
+                picAvatar.Image = null;
             }
             catch (Exception ex)
             {
@@ -45,6 +47,7 @@ namespace Lab05.GUI
             this.cmbFaculty.DisplayMember = "FacultyName";
             this.cmbFaculty.ValueMember = "FacultyID";
         }
+      
         //Hàm binding gridView từ list sinh viên
         private void BindGrid(List<Student> listStudent)
         {
@@ -137,12 +140,14 @@ namespace Lab05.GUI
             s.FacultyID = int.Parse(cmbFaculty.SelectedValue.ToString());
             s.AverageScore = double.Parse(textBox3.Text);
             s.MajorID = 0;
+            s.Avatar = picAvatar.ImageLocation;
 
             StudentService.InsertUpdate(s);
             var listStudents = StudentService.GetAll();
             BindGrid(listStudents);
             Clear();
             MessageBox.Show("Thêm dữ liệu thành công!!!", "Thông Báo", MessageBoxButtons.OK);
+            picAvatar.Refresh();
         }
 
         private void Update(Student s)
@@ -150,12 +155,14 @@ namespace Lab05.GUI
             s.StudentID = textBox1.Text;
             s.FullName = textBox2.Text;
             s.AverageScore = double.Parse(textBox3.Text);
+            s.Avatar = picAvatar.ImageLocation;
 
             StudentService.InsertUpdate(s);
             var listStudents = StudentService.GetAll();
             BindGrid(listStudents);
             Clear();
             MessageBox.Show("Sửa dữ liệu thành công!!!", "Thông Báo", MessageBoxButtons.OK);
+            picAvatar.Refresh();
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -193,9 +200,20 @@ namespace Lab05.GUI
                 textBox2.Text = selectedRow.Cells[1].Value.ToString();                    
                 cmbFaculty.Text = selectedRow.Cells[2].Value.ToString();
                 textBox3.Text = selectedRow.Cells[3].Value.ToString();
+
+                string studentId = selectedRow.Cells[0].Value.ToString();
+                string imagePath = StudentService.fileFath(studentId);
+                if (!string.IsNullOrEmpty(imagePath) && File.Exists(imagePath))
+                {
+                    picAvatar.Image = Image.FromFile(imagePath);
+                }
+                else
+                {
+                    picAvatar.Image = null;
+                }
+                picAvatar.Refresh();
             }
-            else
-                MessageBox.Show("Đối tượng không hợp lệ!!", "Thông Báo", MessageBoxButtons.OK);
+            
         }
         
         private void btnDKCN_Click(object sender, EventArgs e)

@@ -82,7 +82,7 @@ namespace Lab05.GUI
 
                 foreach( var row in dgvStudent.Rows)
                 {
-                    if (row.Equals(cmbFaculty.Equals(selectedFaculty))) ;
+                    if (row.Equals(cmbFaculty.Equals(selectedFaculty)));
                     Visible = true;
                 }
                 

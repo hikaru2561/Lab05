@@ -48,5 +48,13 @@ namespace Lab05.BUS
             context.Students.Remove(s);
             context.SaveChanges();
         }
+
+        public string fileFath(string studentId)
+        {
+            QuanLySinhVienDB context = new QuanLySinhVienDB();
+            string flie = context.Students.Where(s => s.StudentID == studentId).Select(s => s.Avatar).FirstOrDefault();
+
+            return flie;
+        }
     }
 }
